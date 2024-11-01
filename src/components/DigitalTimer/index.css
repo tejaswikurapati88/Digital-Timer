@@ -1,0 +1,107 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  font-family: 'Roboto';
+  padding: 50px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+.main-heading {
+  color: #1e293b;
+  text-align: center;
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.bg-timer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tim-cont {
+  background-color: #ffffff;
+  border: 0px solid;
+  border-radius: 70px;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  margin-bottom: 0px;
+  color: #00d9f5;
+}
+.text {
+  color: #0f172a;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.sec-cont {
+  width: 300px;
+}
+.cont-play-reset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 45px;
+}
+.button {
+  background-color: transparent;
+  border: 0px solid;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+  font-size: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.para {
+  font-size: 12px;
+  color: #0f172a;
+  text-align: center;
+  margin-top: 25px;
+}
+.icon {
+  height: 25px;
+  margin-right: 10px;
+}
+.cont-limit-reset {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.timer-limit {
+  font-size: 30px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 0px solid;
+  border-radius: 15px;
+  width: 55px;
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.start-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
